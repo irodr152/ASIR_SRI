@@ -9,7 +9,7 @@ services:
              - vol1:/etc/bind
              - vol2:/var/cache/bind
              - vol3:/var/lib/bind
-             - vol4:/var/log 5
+             - vol4:/var/log
 volumes: 
   vol1:
   vol2:

@@ -1,0 +1,17 @@
+version: '2'
+
+services: 
+    codigo_github:
+        image: store/internetsystemsconsortium/bind9:9.11
+        ports: 
+            - "8080:53"
+        volumes: 
+             - vol1:/etc/bind
+             - vol2:/var/cache/bind
+             - vol3:/var/lib/bind
+             - vol4:/var/log
+volumes: 
+  vol1:
+  vol2:
+  vol3:
+  vol4:
